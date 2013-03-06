@@ -1,7 +1,7 @@
 CheckIO Solutions
 =================
 
-**SPOILER**: There you will find solutions for `CheckIO http://checkio.org`_
+**SPOILER**: There you will find solutions for `CheckIO <http://checkio.org>`_
 Python programming game. 
 
 For every task there may be two files:
@@ -14,4 +14,4 @@ If the solution is portable between Python versions only the first file will exi
 TODO
 ----
 
-* 
+
