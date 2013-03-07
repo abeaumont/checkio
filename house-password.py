@@ -31,4 +31,4 @@ if __name__ == '__main__':
     assert checkio('QWERTYqwerty') is False, 'Fourth'
     assert checkio('123456123456') is False, 'Fifth'
     assert checkio('QwErTy911poqqqq') is True, 'Sixth'
-    print 'All ok'
+    print('All ok')
