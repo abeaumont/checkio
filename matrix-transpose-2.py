@@ -1,3 +1,21 @@
+#! /usr/bin/env python
+#
+# Copyright 2012-2013 Alfredo Beaumont <alfredo.beaumont@gmail.com>
+# This work is free. You can redistribute it and/or modify it under the
+# terms of the Do What The Fuck You Want To Public License, Version 2,
+# as published by Sam Hocevar. See the LICENSE file for more details.
+
+"""
+Your task is to return a transposed matrix based on input.
+
+Click on the following link for the further infoabout matrix transpose
+operation: http://en.wikipedia.org/wiki/Transpose
+
+Input: matrix A
+
+Output: transposed matrix tA
+"""
+
 def checkio(matr):
     'return a transposed matrix'
     l = len(matr[0])
