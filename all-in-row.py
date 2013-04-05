@@ -5,19 +5,16 @@
 # terms of the Do What The Fuck You Want To Public License, Version 2,
 # as published by Sam Hocevar. See the LICENSE file for more details.
 
-def checkio(arr):
-    'convert all elements in arr in one row'
-    
-    def flatten(flattened, tree):
-        for item in tree:
-            if isinstance(item, list):
-                flatten(flattened, item)
-            else:
-                flattened.append(item)
-        
-    flattened = []
-    flatten(flattened, arr)
-    return flattened
+"""
+There is a list that contains one or more lists inside. Put all values in one
+list.
+
+Input data: Multiple list.
+
+Output data: Single list.
+"""
+
+checkio = lambda a: type(a) == list and sum([checkio(i) for i in a], []) or [a]
 
 if __name__ == '__main__':
     assert checkio([1,2,3]) == [1,2,3], 'First'
