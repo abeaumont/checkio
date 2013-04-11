@@ -2,16 +2,17 @@ CheckIO Solutions
 =================
 
 **SPOILER**: There you will find solutions for `CheckIO <http://checkio.org>`_
-Python programming game. 
+Python programming game.
 
-For every task there may be two files:
+Solutions are compact. This means that they may be unreadable, use tricky
+syntax, use short names and lack documentation. It does not represent good
+coding practices. However, they are not the shortest possible solutions, since
+they:
 
-* task-name.py for the Python 3 solution
-* task-name-2.py for the Python2 solution
-
-If the solution is portable between Python versions only the first file will exist.
-
-TODO
-----
-
+* follow `PEP8 style guide <http://www.python.org/dev/peps/pep-0008/>`_
+  conventions.
+* do not alter calling code (assertions), except for fulfilling previous
+  requirement
+* do not duplicate code
+* work with both Python 2 and 3
 
