@@ -1,7 +1,7 @@
 CheckIO Solutions
 =================
 
-**SPOILER**: There you will find solutions for `CheckIO <http://checkio.org>`_
+**SPOILER**: Here you will find solutions for `CheckIO <http://checkio.org>`_
 Python programming game.
 
 Solutions are compact. This means that they may be unreadable, use tricky
