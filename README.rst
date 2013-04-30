@@ -4,7 +4,7 @@ CheckIO Solutions
 **SPOILER**: Here you will find solutions for `CheckIO <http://checkio.org>`_
 Python programming game.
 
-Solutions are compact. This means that they may be unreadable, use tricky
+Solutions are compact. This means that they may be not too readable, use tricky
 syntax, use short names and lack documentation. It does not represent good
 coding practices. However, they are not the shortest possible solutions, since
 they:
